@@ -1,0 +1,15 @@
+﻿Build started 8/2/2015 12:57:54 AM.
+     1>Project "E:\[PORTFOLIO BUILDS]\SteelseriesVisualizer\SFMLGame.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Tyler\Documents\SFML-2.1-VS2013-RC\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\[PORTFOLIO BUILDS]\SteelseriesVisualizer\Debug\SteelEyeVisualizer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Tyler\Documents\SFML-2.1-VS2013-RC\SFML-2.1\Libs\Debug" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\[PORTFOLIO BUILDS]\SteelseriesVisualizer\Debug\SteelEyeVisualizer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\[PORTFOLIO BUILDS]\SteelseriesVisualizer\Debug\SteelEyeVisualizer.lib" /MACHINE:X86 Debug\SteelEyeVisualizer.res
+         Debug\Main.obj
+         SFMLGame.vcxproj -> E:\[PORTFOLIO BUILDS]\SteelseriesVisualizer\Debug\SteelEyeVisualizer.exe
+     1>Done Building Project "E:\[PORTFOLIO BUILDS]\SteelseriesVisualizer\SFMLGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.93
