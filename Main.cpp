@@ -10,14 +10,18 @@
 
 #include <SFML/Graphics.hpp>
 #include <json.h>
+#include "MouseManager.h"
 
 int main()
 {
 	sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-	sf::CircleShape shape(100.f);
-	shape.setFillColor(sf::Color::Green);
 
-	//Test
+	//NOTES:
+	//MOUSE COLOUR DEVICE TYPES:
+	//rgb-1-zone
+	//rgb-2-zone
+
+	MouseManager* mouseManager = new MouseManager();
 
 	while (window.isOpen())
 	{
@@ -29,7 +33,8 @@ int main()
 		}
 
 		window.clear();
-		window.draw(shape);
+		mouseManager->SetMouseValues(100);
+		//window.draw(shape);
 		window.display();
 	}
 
